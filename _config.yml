@@ -1,16 +1,16 @@
 # Site settings
-title: Minimal Staticman v3 Demo
+title: Static Chuck! A test.
 subtitle: A barebone GitHub Pages with static comments
 email: your-email@domain.com
 description: Test
 baseurl: ""
-url: "https://vincenttam.github.io/TestStaticmanLab/"
+url: "http://www.chuckmasterson.com/staticchuck-test/"
 locale: en
-github_username:  VincentTam
+github_username: chuckmasterson
 
 # Build settings
 markdown: kramdown
 
 staticman:
-  api: "https://staticman3.herokuapp.com/v3/entry/github/vincenttam/TestStaticmanLab/master/comments"
+  api: "https://hkstaticchuck.herokuapp.com/v3/entry/github/chuckmasterson/staticchuck-test/master/comments"
   path: "_data/comments/test-slug"
